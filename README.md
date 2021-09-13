@@ -2,6 +2,7 @@
 
 ## Author Information
 Author: Rini Jayarethinam
+
 Fall 2021
 
 ## Specifications
@@ -10,5 +11,11 @@ Fall 2021
 * Patient name
     + First name
     + Last name
+* Patient ID Number   
+* Age
+* Test Results
+
+### Later
 * Date of Birth
 * Blood Type
+* Another item
