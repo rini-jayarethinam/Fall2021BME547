@@ -16,10 +16,17 @@ def input_type_conversion(input_points, new_x_value):
     y2_value = point_list[1][1]
     new_x_value = int(new_x_value)
     return x1_value, y1_value, x2_value, y2_value, new_x_value
+
+def slope_calculation(x1_value, y1_value, x2_value, y2_value):
+    y_diff = y2_value-y1_value
+    x_diff = x2_value-x1_value
+    slope_m = y_diff/x_diff
+    return slope_m
     
 def coordinates_driver():
     input_points, new_x_value = point_inputs()
     x1_value, y1_value, x2_value, y2_value, new_x_value = input_type_conversion(input_points, new_x_value)
+    slope_m = slope_calculation(x1_value, y1_value, x2_value, y2_value)
 
 if __name__ == "__main__":
     coordinates_driver()
