@@ -1,8 +1,3 @@
-# Weight Entry Starter Code
-
-## `weight_entry.py`
-
-```python
 def input_weight_entry():
     print("Enter patient weight in form of ## units (e.g., 105.3 lb)")
     weight_input = input("Enter weight: ")
