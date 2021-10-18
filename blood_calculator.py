@@ -85,4 +85,5 @@ def chol_analysis(Chol_value):
 def chol_output(Chol_value, Chol_answer):
     print("The total cholesterol value of {} is considered {}".format(Chol_value,Chol_answer))
 
-interface()
+if __name__ == "__main__":
+    interface()
